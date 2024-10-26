@@ -3,19 +3,31 @@
 /* Set custom variables here */
 
 :root {
-  --primary:
-
+  --primary: #2e483a;
+  --bs-primary: 36, 32, 56;
+  --body: #F6F3ED;
+  --light: #f6f3ed;
+  --max-width: 800px;
 
 }
 
-
+.navbar {
+  background-color: var(--primary);
+  color: var(--bs-primary);
+}
 
 .navbar-brand {
-  color: #F6F3ED;
+  color: var(--body);
+  
+}
+
+.navbar-Na {
+  color: var(--light);
 }
 
 body {
   font-family: "Sarala", sans-serif;
+  background-color: var(--body);
 }
 
 h1, h2, h3 {
@@ -29,6 +41,7 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  
 }
 
 #hero .d-flex {
